@@ -13,6 +13,7 @@
 		D06673851D3249A200467974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06673831D3249A200467974 /* Main.storyboard */; };
 		D06673871D3249A200467974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06673861D3249A200467974 /* Assets.xcassets */; };
 		D066738A1D3249A200467974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06673881D3249A200467974 /* LaunchScreen.storyboard */; };
+		D06673931D324B3900467974 /* RobotStand.m in Sources */ = {isa = PBXBuildFile; fileRef = D06673921D324B3900467974 /* RobotStand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D06673861D3249A200467974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06673891D3249A200467974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D066738B1D3249A200467974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06673911D324B3900467974 /* RobotStand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotStand.h; sourceTree = "<group>"; };
+		D06673921D324B3900467974 /* RobotStand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotStand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D066737E1D3249A200467974 /* AppDelegate.m */,
 				D06673801D3249A200467974 /* ViewController.h */,
 				D06673811D3249A200467974 /* ViewController.m */,
+				D06673911D324B3900467974 /* RobotStand.h */,
+				D06673921D324B3900467974 /* RobotStand.m */,
 				D06673831D3249A200467974 /* Main.storyboard */,
 				D06673861D3249A200467974 /* Assets.xcassets */,
 				D06673881D3249A200467974 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				D06673821D3249A200467974 /* ViewController.m in Sources */,
 				D066737F1D3249A200467974 /* AppDelegate.m in Sources */,
 				D066737C1D3249A200467974 /* main.m in Sources */,
+				D06673931D324B3900467974 /* RobotStand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

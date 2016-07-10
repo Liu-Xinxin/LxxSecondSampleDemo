@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RobotStand.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    for(int i=0 ;i<3;i++){
+    
+//        [RobotStand change];
+        RobotStand  * robot = [RobotStand stance];
+        [robot change];
+        
+        
+    }
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
